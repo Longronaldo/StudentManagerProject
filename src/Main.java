@@ -17,7 +17,6 @@ public class Main {
         // Khởi tạo giao diện người dùng (GUI)
         StudentManagerGUI gui = new StudentManagerGUI(controller);
 
-        /*
         // Thêm sinh viên
         boolean success = controller.addStudent("123", "Nguyen A", 20, "a.nguyen@mail.com", "IT");
         System.out.println("Thêm sinh viên thành công: " + success);
@@ -34,6 +33,6 @@ public class Main {
 
         // Xóa sinh viên
         boolean removeSuccess = controller.removeStudent("123");
-        System.out.println("Xóa sinh viên thành công: " + removeSuccess); */
+        System.out.println("Xóa sinh viên thành công: " + removeSuccess);
     }
 }

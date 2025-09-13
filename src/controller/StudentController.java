@@ -33,4 +33,8 @@ public class StudentController {
     public boolean updateStudent(Student updatedStudent) {
         return repository.updateStudent(updatedStudent);
     }
+
+    public StudentRepository getRepository() {
+        return repository;
+    }
 }
