@@ -60,7 +60,7 @@ public class Student {
     // Optional: toString()
     @Override
     public String toString() {
-        return String.format("Student[id=%s, name=%s, age=%d, email=%s, major=%s]",
-                id, name, age, email, major);
+        // Định dạng CSV cho đối tượng Student
+        return id + "," + name + "," + age + "," + email + "," + major;
     }
 }
